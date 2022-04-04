@@ -1,0 +1,62 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="main.css" 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alata&family=Changa:wght@200;300;400;500&family=Eczar&family=Istok+Web&family=Monoton&family=Rajdhani:wght@300;500;600&family=Saira+Condensed:wght@200&family=Teko:wght@300&display=swap" rel="stylesheet">    
+<title>Document</title>
+</head>
+<body>
+    <div id="main">
+        <div id="Headline">
+            <p class="One">HOW MANY PEOPLE SENT 2 <span style="color:#347eee;"> XRP </span></p>
+            <p class="One">TO SEE HOW MANY PEOPLE</P>
+            <p class="One">ALREADY SENT 2<span style="color:#347eee;"> XRP </span></p>
+        </div>
+        <p class="Two_0">Instruction:</p>
+        <p class="Two_1"><span style="color: #277bfa; font-weight:bold;">1.</span> Copy the below XRP destination address and Tag </P>
+        <div class="inline_1">
+            <span>Wallet Address:</span>
+            <span id="numb" >&nbsp;&nbsp;rEb8TK3gBgk5auZkwc6sHnwrGVJH8DuaLh</span>
+            <i class="bi bi-clipboard"></i>
+        </div>
+        <div class="inline_2">
+            <span>XRP Tag:</span>
+            <span id="tag" >&nbsp;&nbsp;103544552</span>
+            <input id="btncopy_1" type="image" src="transparent-clipboard-icon-copy-icon-duplicate-icon-5db75fcfbf2c48.4955590615722987037831.png"/>
+        </div>
+        <p class="Two_2"><span style="color: #277bfa; font-weight:bold;">2.</span> Send 2 XRP to the copied address by using XRP blockchain</P>
+        <p class="Two_3"><span style="color: #277bfa; font-weight:bold;">3.</span> Note your transaction TX_Hash</P>
+        <p class="Two_4"><span style="color: #277bfa; font-weight:bold;">4.</span> Put the TX_hash below and press the submit bottom</P>
+        <div class="form">   
+            <form action="/" method="post">
+                <input type="text" name="name" autocomplete="off" required />
+                <label for="name" class="labe-name">
+                    <apan class="content-name">Enter tx_hash</apan>
+                </label>
+            </form>
+        </div>
+        <div class="btnnn">
+            <button class="gradButton" type="button">
+                <span> Submit Here</span>
+            </button>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        const numb = document.getElementById("numb");
+        const btncopy = document.getElementById("btncopy");
+        btncopy.onclick = function(){
+            numb.select();
+
+            document.execCommand("copy");
+        };
+    </script>
+
+
+</body>
+</html>

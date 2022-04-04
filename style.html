@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Eczar&family=Istok+Web&family=Monoton&family=Rajdhani:wght@300;500;600&family=Saira+Condensed:wght@200&family=Teko:wght@300&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div id="main">
+        <div id="Headline">
+            <p class="One">HOW MANY PEOPLE SENT 2 <span style="color:#347eee;"> XRP </span></p>
+            <p class="One">TO SEE HOW MANY PEOPLE</P>
+            <p class="One">ALREADY SENT 2<span style="color:#347eee;"> XRP </span></p>
+        </div>
+        <div id="Instruction1">
+            <p class="Two_0">Instruction:</p>
+        </div>    
+                <div id="walletaddress">
+                    <p class="Two_1"><span style="color: #277bfa;">1.</span> Copy the XRP destination address and Tag </P>
+                </div>
+                <div class="inline_1">
+                    <p>Wallet Address:  <span id="numb">rEb8TK3gBgk5auZkwc6sHnwrGVJH8DuaLh</span></p>
+                    <!-- <input id="btncopy_0" type="image" src="copy-icon-4786.png"/> -->
+                    
+                        
+                </div>
+                <div>    
+                    <p id="xrptag">XRP Tag: <span id="Tag">103544552</span></p>
+                <!-- <button id="btncopy_1">Copy</button> -->
+                </div>
+            <p class="Two_2"><span style="color: #277bfa;">2.</span> Send 2 XRP to the copied address by using XRP blockchain</P>
+            <p class="Two_2"><span style="color: #277bfa;">3.</span> Note your transaction TX_Hash</p>
+            <p class="Two_2"><span style="color: #277bfa;">4.</span> Put the TX_hash below and press the submit bottom</p>
+            <div id="Gettinghash">
+                <form action="/" method="post">
+                    <input type="text" class="form__field" placeholder="Name" name='name' id='name' required />
+                    <label for="name" class="form__label">Enter tx_hash</label>
+                </form>
+            
+            <input type="submit" value='Submit Here' class="btnn ">
+            </div>  
+        
+          
+    </div>
+    <script type="text/javascript">
+        const numb = document.getElementById("numb");
+        const btncopy = document.getElementById("btncopy");
+        btncopy.onclick = function(){
+            numb.select();
+        };
+    </script>
+</body>
+</html>
