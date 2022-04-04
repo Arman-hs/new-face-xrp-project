@@ -318,6 +318,10 @@ body{
     }
   }
 
+  .fa-clipboard:hover {
+    cursor: pointer;
+  }
+
 
 
   /* .btnn {
