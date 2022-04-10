@@ -1,41 +1,67 @@
 body{
 
     background-color: #222222;
+    /* background-repeat: no-repeat;
+    background-position: -10% 50%; 
+
+    background-size: contain; */
+    min-height: 100vh;
+
+  }
+  .gifson{
+    z-index: 0;
+    width: 100%;
+    height: 700px;
+    position: relative;
+  }
+  .gif{
+    width: 100%;
+    height: 100%;
+    position: absolute;
     background-image: url(distributed@2x.gif);
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: -7% 50%; 
-    background-size: 55rem;
-
-}
-#main {
-  position: relative;;
+    -webkit-background-size: contain;
+    /* background-size: contain; */
+    background-position: center;
+  }
+.main {
+  z-index: -1;
+  /* position: relative; */
+  display: inline-block;
   /* border-width: 2px;
   border-style: dashed;
   border-color: rgb(231, 166, 180); */
-  float: right;
-  width: 750px;
-  height: 700px;
-  padding-top: 1%;
+  /* float: right; */
+  width: 46.875rem;
+  /* padding-top: 1%; */
+  height: 90vh;
 
 }
+/* p {
+ margin: 4%;
+ color: #9b9b9b;
+ font-family: 'Changa', sans-serif;
+ text-align: center;
+ font-weight: 400;
+} */
 
 #Headline {
-  /* border-width: 1.2px;
+  border-width: 1.2px;
   border-style: dashed;
-  border-color: rgb(245, 15, 207); */
+  border-color: rgb(245, 15, 207);
   color: white;
   font-family: 'Monoton', cursive;
-  padding-top: 30px;
+  padding-top: 2%;
   text-align: center;
-  height: 150px;
+  height: 9.375rem;
 
 }
 .One {
-  font-size: 2rem;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  word-spacing: 12px;
+  font-size: 2.08vw;
+  font-weight: 500;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  word-spacing: 0.75rem;
   background-image: linear-gradient(to right, rgba(255, 255, 255, 0.938), rgba(255, 255, 255, 0.562), rgb(255, 255, 255), rgba(255, 255, 255, 0.815), rgb(255, 255, 255));
   -webkit-background-clip: text;
   background-clip: text;
@@ -45,10 +71,27 @@ body{
   animation: animatedText 2000ms infinite alternate-reverse;
 }
 .intro{
-  margin-top: 10%;
+  margin-top: 5%;
   
   
   }
+  @media (max-width: 768px)  {
+    .intro {
+        margin-top: 7%;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0%;
+        font-size: 4.8vw;
+        width: 100%;
+        height: auto;
+        line-height: 4.5vw;
+        padding: 0;
+        z-index: 1;
+        text-align: center;
+        color: white;
+
+
+    }
 
 .Two_0 {
   /* outline: 3px solid red;   */
@@ -56,10 +99,10 @@ body{
   font-family: 'Changa', sans-serif;
   font-size: 1.6rem;
   font-weight: bold;
-  margin-top: 15px;
+  margin-top: 0.938rem;
   text-align: center;
   margin-bottom: 4%;
-  padding-top: 20px;
+  padding-top: 1.25rem;
 
 }
 
@@ -69,8 +112,8 @@ body{
     font-family: 'Changa', sans-serif;
     font-size: 1.4rem;
     font-weight: 500;
-    margin-top: -25px;
-    margin-left: 78px;
+    margin-top: -1.563rem;
+    margin-left: 4.875rem;
   
   }
 
@@ -79,26 +122,26 @@ body{
     border-style: dashed;
     border-color: rgb(3, 255, 129); */
     display: inline-block;
-    width: 750px;
-    height: 32px;
+    width: 46.875rem;
+    height: 2rem;
     color: white;
     font-family: 'Changa', sans-serif;
     font-size: 1.3rem;
     text-align: center;
-    margin-top: -35px;
+    margin-top: -0.625rem;
     font-weight: 300;
 
   }
   #numb{
 
-    letter-spacing: 1px;
-    margin-top: 18px;
+    letter-spacing: 0.063rem;
+    /* margin-top: 18px; */
   }
   #btncopy{
 
-    width: 20px;
+    width: 1.25rem;
     color: white;
-    margin-top: 18px;
+    /* margin-top: 18px; */
 
 
   }
@@ -107,24 +150,24 @@ body{
     border-style: dashed;
     border-color: rgb(3, 255, 129); */
     /* display: inline-block; */
-    width: 500px;
-    height: 32px;
+    width: 31.25rem;
+    height: 0.938rem;
     color: white;
     font-family: 'Changa', sans-serif;
     font-size: 1.3rem;
     /* text-align: center; */
-    margin-top: -2px;
-    margin-left: 82px;
+    margin-top: -0.125rem;
+    margin-left: 5.125rem;
     font-weight: 300;
   }
   #tag{
     /* display: inline-block; */
-    letter-spacing: 1px;
+    letter-spacing: 0.063rem;
   }
   #btncopy_1{
     /* display: inline-block; */
-    margin-top: 20px;
-    width: 20px;
+    margin-top: 1.25rem;
+    width: 1.25rem;
     color: white;
 
   }
@@ -145,7 +188,7 @@ body{
     font-size: 1.4rem;
     font-weight: 500;
     margin-top: 5%;
-    margin-left: 78px;
+    margin-left: 4.875rem;
   
   }
   .Two_4 {
@@ -155,15 +198,15 @@ body{
     font-size: 1.4rem;
     font-weight: 500;
     margin-top: 3%;
-    margin-bottom: 2px;
-    margin-left: 78px;
+    margin-bottom: 0.125rem;
+    margin-left: 4.875rem;
   
   }
   .form{
 
     width: 80%;
     position: relative;
-    height: 50px;
+    height: 3.125rem;
     overflow: hidden;
     margin: auto;
   }
@@ -172,7 +215,7 @@ body{
     height: 100%;
     color: #ffffff;
     font-family: 'Changa', sans-serif;
-    font-size: 17.3px;
+    font-size: 1.081rem;
     padding-top: 3%;
     border: none;
     background: transparent;
@@ -181,7 +224,7 @@ body{
   }
   .form label {
     position: absolute;
-    bottom: 0px;
+    bottom: 0rem;
     left: 0%;
     width: 100%;
     height: 100%;
@@ -189,16 +232,16 @@ body{
     color: white;
     opacity: 0.75;
     font-family: 'Changa', sans-serif;
-    border-bottom: 2px solid #222222;
+    border-bottom: 0.125rem solid #222222;
   }
   .form label::after {
     content: '';
     position: absolute;
     width: 100%;
     left: 0px;
-    bottom: -2px;
+    bottom: -0.125rem;
     height: 100%;
-    border-bottom: 2.5px solid #9b9b9b;
+    border-bottom: 0.156rem solid #9b9b9b;
     transform: translateX(-81.5%);
     transition: transform 1.5s ease-in-out;
 
@@ -206,16 +249,16 @@ body{
 
   .content-name {
     position: absolute;
-    font-size: 18px;
-    bottom: -1.5px;
-    left: 0px;
+    font-size: 1.125rem;
+    bottom: -0.094;
+    left: 0rem;
     transition: all 0.8s ease;
 
   }
  .form input:focus + .labe-name .content-name,
  .form input:valid + .labe-name .content-name {
    transform: translateY(-75%);
-   font-size: 14px;
+   font-size: 0.875rem;
    font-weight: 600;
    color: #9b9b9b;
  }
@@ -226,17 +269,17 @@ body{
 
  }
  .btnnn {
-   margin-left: 40%;
+   text-align: center;
  }
   .gradButton {
     
-    width: 120px;
-    height: 40px;
+    width: 7.5rem;
+    height: 2.5rem;
     outline: none;
-    margin-top: 20px;
+    margin-top: 1.25rem;
     border: none;
     position: relative;
-    border-radius: 180px;
+    border-radius: 11.25rem;
     cursor: pointer;
     background: linear-gradient(60deg, white, #c7deff, #0667fa, #024aaf,
     #173764, #adc3e5, white, #14243b);
@@ -247,11 +290,11 @@ body{
     content: '';
     position: absolute;
     display: block;
-    border-radius: 180px;
-    width: calc(100% - 8.5px);
-    height: calc(100% - 9px);
-    top: 4.5px;
-    left: 5px;
+    border-radius: 11.25rem;
+    width: calc(100% - 0.531rem);
+    height: calc(100% - 0.563rem);
+    top: 0.281rem;
+    left: 0.313rem;
     background: #222222;
   }
 
@@ -261,7 +304,7 @@ body{
     align-items: center;
     width: 100%;
     height: 100%;
-    font-size: 15px;
+    font-size: 0.938rem;
     font-weight: 600;
     color: white;
     z-index: 1;
@@ -279,8 +322,8 @@ body{
     #173764, #adc3e5, white, #14243b);
     top: 0;
     left: 0;
-    filter: blur(10px);
-    border-radius: 180px;
+    filter: blur(0.625rem);
+    border-radius: 11.25rem;
     opacity: 0;
 
   }
@@ -290,6 +333,34 @@ body{
     animation:rotateBorder 18s linear infinite;
     
   }
+  .touch {
+   
+    color: #9b9b9b;
+    font-family: 'Changa', sans-serif;
+    font-weight: 400;
+    margin-top: 10%;
+    text-align: center;
+  }
+  #mail {
+    color: #5f9cf7;
+    letter-spacing: 0.05vh;
+  }
+  .container{
+    position: fixed;
+    height: 7.5rem;
+    width: 0.313rem;
+    bottom: 3%;
+    left: 0.25%;
+  }
+  .container span {
+    margin-left: -1vh;
+    font-family: 'Monoton', cursive;
+    color: #347eee;
+    margin-bottom: -0.625;
+    font-size: 1.563rem;
+    font-weight: 500;
+  }
+
   @keyframes rotateBorder {
     0%{
       background-position: 0 0;
@@ -305,7 +376,7 @@ body{
   .gradButton:hover::before {
     opacity: 1;
     transition: 0.2s opacity ease-in-out;
-    filter: blur(10px);
+    filter: blur(0.625rem);
   }
 
   @keyframes animatedText{
@@ -321,7 +392,22 @@ body{
   .fa-clipboard:hover {
     cursor: pointer;
   }
-
+  @media (max-width: 768px ) {
+    .col-sm-6{
+      width: 50%;
+      display: inline-block;
+      /* z-index: -1; */
+    }
+    .main{
+      /* z-index: 0; */
+    }
+    .One{
+      font-size: 3vw;
+    }
+   
+    
+  }
+ 
 
 
   /* .btnn {

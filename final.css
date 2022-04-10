@@ -1,0 +1,474 @@
+body{
+    background-color: #222222;
+
+}
+.container-fluid {
+    position: static;
+    overflow: visible;
+    width: 600px;
+    height: 180px;
+    margin-top: 2%;
+    margin-right: 3.2%;
+    padding-right: 0.5%;
+    padding-left: 0.5%;
+    float: right;
+    font-family: 'Monoton', cursive;
+    font-size: 30px;
+    line-height: 20px;
+    font-weight: 500;
+    text-align: center;
+    font-size: 2vw;
+    /* border-width: 2px;
+    border-style: dashed;
+    border-color: rgb(245, 15, 207); */
+    line-height: 40px;
+    word-spacing: 8px;
+    overflow: hidden;
+    /* white-space: nowrap; */
+
+}
+/* @media (min-width: 1024px)  {
+    .container-fluid{
+        margin-top: 4%;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0%;
+        font-size: 4vw;
+        width: 100%;
+        height: auto;
+        line-height: 4.5vw;
+        padding: 0;
+        z-index: 1;
+        
+    } */
+
+
+.image{
+    /* border-width: 2px;
+    border-style: dashed;
+    border-color: rgb(245, 15, 207); */
+    padding-top: 1%;
+    margin-top: 3%;
+    margin-left: 0;
+    float: left;
+    width: 55vw;
+    height: auto;
+}
+
+@media (max-width: 768px)  {
+    .image{
+        margin: 0;
+        padding: 0;
+        width: 80%;
+        margin-left: 10%;
+        align-items: center;
+        justify-items: center;
+        /* display: flex; */
+        z-index: -1;
+        
+    }
+    
+}
+
+
+p {
+    position: relative;
+    color: white;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.938), rgba(255, 255, 255, 0.562), rgb(255, 255, 255), rgba(255, 255, 255, 0.815), rgb(255, 255, 255));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  background-size: 190%;
+  background-position: -150%;
+  animation: animatedText 2000ms infinite alternate-reverse;
+}
+.intro{
+    border-width: 2px;
+    border-style: dashed;
+    border-color: rgb(245, 15, 207);
+    width: 600px;
+    height: auto;
+    float: right;
+    margin-right: 3%;
+    overflow: hidden;
+}
+
+.Two_0 {
+    /* outline: 3px solid red;   */
+    color: white;
+    font-family: 'Changa', sans-serif;
+    font-size: 1.5vw;
+    font-weight: bold;
+    
+    text-align: center;
+    
+    
+}
+
+  
+  .Two_1 {
+    /* outline: 3px solid red;   */
+    margin-top: -1.5%;
+    color: white;
+    font-family: 'Changa', sans-serif;
+    font-size: 1.4vw;
+    font-weight: 400;
+
+  
+  }
+ 
+  .inline_1 {
+    border-width: 1.2px;
+    border-style: dashed;
+    border-color: rgb(3, 255, 129);
+
+    width: 100%;
+    /* height: 2rem; */
+    color: white;
+    font-family: 'Changa', sans-serif;
+    font-size: 1.3vw;
+    float: left;
+    margin-top: -2%;
+    font-weight: 300;
+
+  }
+  
+  #numb{
+
+    letter-spacing: 0.063vw;
+    /* margin-top: 18px; */
+  }
+ 
+  .inline_2 {
+    border-width: 1.2px;
+    border-style: dashed;
+    border-color: rgb(3, 255, 129);
+
+    width: 100%;
+    /* height: 2rem; */
+    color: white;
+    font-family: 'Changa', sans-serif;
+    font-size: 1.3vw;
+    float: left;
+    margin-top: 0;
+    font-weight: 300;
+  }
+ 
+  #tag{
+    /* display: inline-block; */
+    letter-spacing: 0.063vw;
+  }
+  
+  .Two_3 {
+    /* outline: 3px solid red;   */
+    margin-top: 15%;
+    color: white;
+    font-family: 'Changa', sans-serif;
+    font-size: 1.4vw;
+    font-weight: 400;
+
+  
+  }
+  .Two_4 {
+    /* outline: 3px solid red;   */
+    margin-top: 4%;
+    color: white;
+    font-family: 'Changa', sans-serif;
+    font-size: 1.4vw;
+    font-weight: 400;
+    margin-bottom: 0;
+
+  
+  }
+  .form{
+    float: left;
+    width: 100%;
+    position: relative;
+    height: 5vw;
+    overflow: hidden;
+    margin-top: -0.5vw;
+  }
+  .form input{
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    font-family: 'Changa', sans-serif;
+    font-size: 1.081rem;
+    padding-top: 5%;
+    border: none;
+    background: transparent;
+    outline: none;
+    
+  }
+  .form label {
+    position: absolute;
+    bottom: 0vw;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    color: white;
+    opacity: 0.75;
+    font-family: 'Changa', sans-serif;
+    border-bottom: 0.125rem solid #222222;
+  }
+  .form label::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    bottom: -0.125rem;
+    height: 100%;
+    border-bottom: 0.156rem solid #9b9b9b;
+    transform: translateX(-81.5%);
+    transition: transform 1.5s ease-in-out;
+
+  }
+  .content-name {
+    position: absolute;
+    font-size: 1.2vw;
+    bottom: -1;
+    left: 0rem;
+    transition: all 0.8s ease;
+
+  }
+ .form input:focus + .labe-name .content-name,
+ .form input:valid + .labe-name .content-name {
+   transform: translateY(-90%);
+   font-size: 0.875rem;
+   font-weight: 600;
+   color: #9b9b9b;
+ }
+.form input:focus + .labe-name::after,
+ .form input:valid + .labe-name::after {
+  transform: translateX(0%);
+
+
+ }
+
+ 
+ .gradButton {
+
+    margin-left: 40%;
+    width: 7rem;
+    height: 2.5rem;
+    outline: none;
+    margin-top: 1.25rem;
+    border: none;
+    position: relative;
+    border-radius: 11.25rem;
+    cursor: pointer;
+    background: linear-gradient(60deg, white, #c7deff, #0667fa, #024aaf,
+    #173764, #adc3e5, white, #14243b);
+
+  }
+
+  .gradButton::after {
+    content: '';
+    position: absolute;
+    display: block;
+    border-radius: 11.25rem;
+    width: calc(100% - 0.531rem);
+    height: calc(100% - 0.563rem);
+    top: 0.281rem;
+    left: 0.313rem;
+    background: #222222;
+  }
+
+  .gradButton span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 0.938rem;
+    font-weight: 600;
+    color: white;
+    z-index: 1;
+    position: relative;
+    background: transparent;
+  }
+
+  .gradButton::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(60deg, white, #c7deff, #0667fa, #024aaf,
+    #173764, #adc3e5, white, #14243b);
+    top: 0;
+    left: 0;
+    filter: blur(0.625rem);
+    border-radius: 11.25rem;
+    opacity: 0;
+
+  }
+
+  .gradButton:hover {
+    background-size: 300%;
+    animation:rotateBorder 18s linear infinite;
+    
+  }
+  @keyframes rotateBorder {
+    0%{
+      background-position: 0 0;
+    }
+    50%{
+      background-position: 300% 0;
+    }
+    100%{
+      background-position: 0 0;
+    }
+  }
+
+  .gradButton:hover::before {
+    opacity: 1;
+    transition: 0.2s opacity ease-in-out;
+    filter: blur(0.625rem);
+  }
+
+@keyframes animatedText{
+
+    to{
+      background-position: 100%;
+    }
+  }
+
+  .fa-clipboard:hover {
+    cursor: pointer;
+  }
+
+
+
+  
+
+
+  @media (max-width: 768px) {
+        .container-fluid{
+            margin-top: 7%;
+            margin-left: 0;
+            margin-right: 0;
+            margin-bottom: 0%;
+            font-size: 4.8vw;
+            width: 100%;
+            height: auto;
+            line-height: 4.5vw;
+            padding: 0;
+            z-index: 1;
+        }
+        
+
+        .intro{
+            width: 85%;
+            margin-left: 8%;
+            float: none;
+            
+        }
+        
+ 
+        .Two_0{
+            font-size:4vw ;
+            
+        }
+
+
+    .Two_1{
+        font-size:3.4vw ;
+        margin-left: 2%;
+        
+    }
+
+
+    .inline_1{
+        font-size:3.2vw ;
+        margin-left: 2%;
+        margin-top: -2%;
+        
+    }
+
+
+    #numb{
+        letter-spacing:0.3vw ;
+        margin-top: -15%;
+        
+    }
+
+        .inline_2{
+            font-size:3.3vw ;
+            margin-left: 2%;
+            
+        }
+ 
+        #tag{
+            letter-spacing:0.3vw ;
+            
+        }
+        .Two_3{
+            font-size:3.4vw ;
+            margin-left: 2%;
+            margin-top: 22%;
+            
+        }
+        .Two_4{
+            font-size:3.4vw ;
+            margin-left: 2%;
+            margin-bottom: 0%;
+            
+        }
+        .form{
+            margin-top: 5%;
+            margin-left: 2%;
+            height: 8vw;
+        }
+        .form input{
+        padding-top: 1%;
+        }
+        .content-name{
+          font-size: 2.5vw;
+        }
+  .form input:focus + .labe-name .content-name,
+  .form input:valid + .labe-name .content-name {
+   transform: translateY(-3vw);
+   font-size: 3vw;
+
+ }
+        .btnnn{
+          float: none;
+          /* position: relative; */
+          padding-right: 50;
+    
+        }
+      
+    }
+
+    @media (max-width: 480px) {
+
+      .form{
+          margin-top: 3.5vw;
+          margin-left: 1%;
+          height: 10vw;
+      }
+      .form input{
+      padding-top: 2.2vw;
+      font-size: 3vw;
+  
+      }
+  
+  
+      .btnnn{
+        float: none;
+        /* position: relative; */
+        margin-left: 5vw;
+  
+      }
+      .gradButton {
+        width: 20vw;
+        height: 8vw;
+      }
+      .gradButton span {
+        font-size: 2.8vw;
+      }
+  
+        
+    }
