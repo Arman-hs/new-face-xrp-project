@@ -68,6 +68,7 @@ p {
     margin-right: 2%;
     margin-top: 2%;
     overflow: hidden;
+    padding-bottom: 3vw;
 }
 
 .Two_0 {
@@ -223,6 +224,7 @@ p {
 
 
  }
+
 
  
  .gradButton {
@@ -401,6 +403,10 @@ p {
     
     
 }
+.btnnn{
+margin-left: -5%;
+
+}
 .touch {
 
  position:absolute;
@@ -531,9 +537,7 @@ font-size: 2vw;
 
 }
     .btnnn{
-      float: none;
-      /* position: relative; */
-      padding-right: 0;
+      margin-left: -1%;
 
     }
     .touch {
@@ -603,7 +607,7 @@ font-size: 2vw;
  
         .Two_0{
             font-size:3vw ;
-            
+            margin-right: -1%;
         }
 
 
