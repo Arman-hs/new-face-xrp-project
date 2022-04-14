@@ -27,48 +27,24 @@ body{
     /* white-space: nowrap; */
 
 }
-/* @media (min-width: 1024px)  {
-    .container-fluid{
-        margin-top: 4%;
-        margin-left: 0;
-        margin-right: 0;
-        margin-bottom: 0%;
-        font-size: 4vw;
-        width: 100%;
-        height: auto;
-        line-height: 4.5vw;
-        padding: 0;
-        z-index: 1;
-        
-    } */
+
 
 
 .image{
+  position: relative;
     /* border-width: 2px;
     border-style: dashed;
     border-color: rgb(245, 15, 207); */
     padding-top: 1%;
-    margin-top: 3%;
-    margin-left: 0;
+    margin-top: 8%;
+    margin-left: 5%;
     float: left;
-    width: 55vw;
+    width: 45vw;
     height: auto;
 }
 
-@media (max-width: 768px)  {
-    .image{
-        margin: 0;
-        padding: 0;
-        width: 80%;
-        margin-left: 10%;
-        align-items: center;
-        justify-items: center;
-        /* display: flex; */
-        z-index: -1;
-        
-    }
-    
-}
+
+
 
 
 p {
@@ -83,13 +59,14 @@ p {
   animation: animatedText 2000ms infinite alternate-reverse;
 }
 .intro{
-    border-width: 2px;
+    /* border-width: 2px;
     border-style: dashed;
-    border-color: rgb(245, 15, 207);
+    border-color: rgb(245, 15, 207); */
     width: 600px;
     height: auto;
     float: right;
-    margin-right: 3%;
+    margin-right: 2%;
+    margin-top: 2%;
     overflow: hidden;
 }
 
@@ -99,6 +76,7 @@ p {
     font-family: 'Changa', sans-serif;
     font-size: 1.5vw;
     font-weight: bold;
+    padding-right: 5%;
     
     text-align: center;
     
@@ -118,9 +96,9 @@ p {
   }
  
   .inline_1 {
-    border-width: 1.2px;
+    /* border-width: 1.2px;
     border-style: dashed;
-    border-color: rgb(3, 255, 129);
+    border-color: rgb(3, 255, 129); */
 
     width: 100%;
     /* height: 2rem; */
@@ -140,9 +118,9 @@ p {
   }
  
   .inline_2 {
-    border-width: 1.2px;
+    /* border-width: 1.2px;
     border-style: dashed;
-    border-color: rgb(3, 255, 129);
+    border-color: rgb(3, 255, 129); */
 
     width: 100%;
     /* height: 2rem; */
@@ -310,6 +288,28 @@ p {
     animation:rotateBorder 18s linear infinite;
     
   }
+
+  .touch {
+
+    position:absolute;
+    bottom:1%;
+    width:35%;
+    height:20px;   /* Height of the footer */
+    background:#222222;
+    text-align: center;
+    margin-left: 32%;
+   
+   
+   }
+   .intouch{
+     margin-bottom: 5px;
+     /* padding-top: 5; */
+     /* text-align: center; */
+     color: white;
+     font-size: 1vw;
+   }
+
+  
   @keyframes rotateBorder {
     0%{
       background-position: 0 0;
@@ -339,24 +339,258 @@ p {
     cursor: pointer;
   }
 
+  @media (max-width: 1282px){
+    .container-fluid{
+      position: static;
+    overflow: visible;
+    width: 600px;
+    height: 180px;
+    margin-top: 2%;
+    margin-right: 0%;
+    padding-right: 0.5%;
+    padding-left: 0.5%;
+    float: right;
+    font-family: 'Monoton', cursive;
+    font-size: 30px;
+    line-height: 20px;
+    font-weight: 500;
+    text-align: center;
+    font-size: 2vw;
+    /* border-width: 2px;
+    border-style: dashed;
+    border-color: rgb(245, 15, 207); */
+    line-height: 40px;
+    word-spacing: 8px;
+    overflow: hidden;
+  }
+
+    .intro{
+      /* border-width: 2px;
+      border-style: dashed;
+      border-color: rgb(245, 15, 207); */
+      width: 503px;
+      height: auto;
+      float: right;
+      margin-right: 3%;
+      margin-top: 2%;
+      overflow: hidden;
+  }
+
+
+    .image{
+      position: relative;
+      /* border-width: 2px;
+      border-style: dashed;
+      border-color: rgb(245, 15, 207); */
+      padding-top: 1%;
+      margin-top: 8%;
+      margin-left: -2%;
+      float: left;
+      width: 45vw;
+      height: auto;
+  }
+  .Two_0 {
+    /* outline: 3px solid red;   */
+    color: white;
+    font-family: 'Changa', sans-serif;
+    font-size: 1.5vw;
+    font-weight: bold;
+    padding-right: -1%;
+    
+    text-align: center;
+    
+    
+}
+.touch {
+
+ position:absolute;
+ bottom:1%;
+ width:35%;
+ height:20px;   /* Height of the footer */
+ background:#222222;
+ text-align: center;
+ margin-left: 30%;
+
+
+}
+.intouch{
+  margin-bottom: 5px;
+  /* padding-top: 5; */
+  /* text-align: center; */
+  color: white;
+  font-size: 1vw;
+}
+
+
+  }
+
+  @media (max-width: 1024px) {
+    .container-fluid{
+        margin-top: 7%;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0%;
+        font-size: 4vw;
+        width: 100%;
+        height: auto;
+        line-height: 4.5vw;
+        padding: 0;
+        z-index: 1;
+    }
+
+    .image{
+          margin: 0;
+          padding: 0;
+          width: 80%;
+          margin-left: 10%;
+          align-items: center;
+          justify-items: center;
+          /* display: flex; */
+          z-index: -1;
+          
+      }
+      
+  
+    
+
+    .intro{
+        width: 85%;
+        margin-left: 8%;
+        float: none;
+        
+    }
+    
+
+    .Two_0{
+        font-size:3vw ;
+        
+    }
+
+
+.Two_1{
+    font-size:2.4vw ;
+    margin-left: 2%;
+    
+}
+
+
+.inline_1{
+    font-size:2.2vw ;
+    margin-left: 2%;
+    margin-top: -2%;
+    
+}
+
+
+#numb{
+    letter-spacing:0.3vw ;
+    margin-top: -15%;
+    
+}
+
+    .inline_2{
+        font-size:2.2vw ;
+        margin-left: 2%;
+        
+    }
+
+    #tag{
+        letter-spacing:0.3vw ;
+        
+    }
+    .Two_3{
+        font-size:2.4vw ;
+        margin-left: 2%;
+        margin-top: 12%;
+        
+    }
+    .Two_4{
+        font-size:2.4vw ;
+        margin-left: 2%;
+        margin-bottom: 0%;
+        
+    }
+    .form{
+        margin-top: 3%;
+        margin-left: 2%;
+        height: 8vw;
+        margin-bottom: 0%;
+
+    }
+    .form input{
+    padding-top: 4%;
+    font-size: 2vw;
+    }
+    .content-name{
+      font-size: 2.5vw;
+    }
+.form input:focus + .labe-name .content-name,
+.form input:valid + .labe-name .content-name {
+transform: translateY(-2vw);
+font-size: 2vw;
+
+}
+    .btnnn{
+      float: none;
+      /* position: relative; */
+      padding-right: 0;
+
+    }
+    .touch {
+
+      position:relative;
+     bottom:-25;
+     width:35%;
+     height:20px;   /* Height of the footer */
+     background:#222222;
+     text-align: center;
+     margin-left: 30%;
+  
+  
+    }
+    .intouch{
+      margin-bottom: 0;
+      /* padding-top: 5; */
+      /* text-align: center; */
+      color: white;
+      font-size: 1.5vw;
+    }
+  
+}
+
+
 
 
   
 
 
-  @media (max-width: 768px) {
+  @media (max-width: 768px){
         .container-fluid{
             margin-top: 7%;
             margin-left: 0;
             margin-right: 0;
             margin-bottom: 0%;
-            font-size: 4.8vw;
+            font-size: 4vw;
             width: 100%;
             height: auto;
             line-height: 4.5vw;
             padding: 0;
             z-index: 1;
         }
+
+        .image{
+              margin: 0;
+              padding: 0;
+              width: 80%;
+              margin-left: 10%;
+              align-items: center;
+              justify-items: center;
+              /* display: flex; */
+              z-index: -1;
+              
+          }
+          
+      
         
 
         .intro{
@@ -368,20 +602,20 @@ p {
         
  
         .Two_0{
-            font-size:4vw ;
+            font-size:3vw ;
             
         }
 
 
     .Two_1{
-        font-size:3.4vw ;
+        font-size:2.6vw ;
         margin-left: 2%;
         
     }
 
 
     .inline_1{
-        font-size:3.2vw ;
+        font-size:2.4vw ;
         margin-left: 2%;
         margin-top: -2%;
         
@@ -395,7 +629,7 @@ p {
     }
 
         .inline_2{
-            font-size:3.3vw ;
+            font-size:2.4vw ;
             margin-left: 2%;
             
         }
@@ -405,40 +639,61 @@ p {
             
         }
         .Two_3{
-            font-size:3.4vw ;
+            font-size:2.6vw ;
             margin-left: 2%;
-            margin-top: 22%;
+            margin-top: 13%;
             
         }
         .Two_4{
-            font-size:3.4vw ;
+            font-size:2.6vw ;
             margin-left: 2%;
             margin-bottom: 0%;
             
         }
         .form{
-            margin-top: 5%;
+            margin-bottom: -2%;
             margin-left: 2%;
             height: 8vw;
         }
         .form input{
-        padding-top: 1%;
+        padding-top: 3%;
+        font-size: 2.2vw;
         }
         .content-name{
           font-size: 2.5vw;
         }
   .form input:focus + .labe-name .content-name,
   .form input:valid + .labe-name .content-name {
-   transform: translateY(-3vw);
-   font-size: 3vw;
+   transform: translateY(-2.5vw);
+   font-size: 2.5vw;
 
  }
-        .btnnn{
-          float: none;
-          /* position: relative; */
-          padding-right: 50;
+      .btnnn{
+        float: none;
+        /* position: relative; */
+        margin-left: 0;
+        padding-right: 10;
+  
+      }
+      .gradButton {
+        width: 17vw;
+        height: 5.5vw;
+      }
+      .gradButton span {
+        font-size: 2.1vw;
+      }
+      .touch {
+
+        position:relative;
+       bottom:-25;
+       width:35%;
+       height:20px;   /* Height of the footer */
+       background:#222222;
+       text-align: center;
+       margin-left: 32%;
     
-        }
+    
+      }
       
     }
 
@@ -448,6 +703,7 @@ p {
           margin-top: 3.5vw;
           margin-left: 1%;
           height: 10vw;
+          margin-bottom: -2%;
       }
       .form input{
       padding-top: 2.2vw;
@@ -457,17 +713,39 @@ p {
   
   
       .btnnn{
+
         float: none;
         /* position: relative; */
-        margin-left: 5vw;
+        margin-left: 0;
+        padding-right: 10;
   
       }
       .gradButton {
-        width: 20vw;
-        height: 8vw;
+        width: 17.2vw;
+        height: 6.2vw;
       }
       .gradButton span {
-        font-size: 2.8vw;
+        font-size: 2.1vw;
+      }
+      .touch {
+
+        position:relative;
+       bottom:-25;
+       width:35%;
+       height:20px;   /* Height of the footer */
+       background:#222222;
+       text-align: center;
+       margin-left: 32%;
+    
+    
+      }
+      .intouch{
+  
+        margin-bottom: 0;
+        /* padding-top: 5; */
+        /* text-align: center; */
+        color: white;
+        font-size: 1.5vw;
       }
   
         
