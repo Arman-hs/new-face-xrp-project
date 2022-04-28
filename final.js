@@ -7,3 +7,6 @@ function copy_and_change(icon_elem, elemid_to_copy) {
     setTimeout(() => icon_elem.className = "fa-regular fa-clipboard", 2000)
 }
 
+function hi(){
+    alert('hi');
+}

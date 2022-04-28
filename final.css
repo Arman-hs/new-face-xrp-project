@@ -20,7 +20,7 @@ body{
     padding-left: 0.5%;
     float: right;
     font-family: 'Monoton', cursive;
-    line-height: 20px;
+    line-height: 10px;
     font-weight: 500;
     text-align: center;
     font-size: 1.95vw;
@@ -56,13 +56,13 @@ body{
 p {
     position: relative;
     color: white;
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.938), rgba(255, 255, 255, 0.562), rgb(255, 255, 255), rgba(255, 255, 255, 0.815), rgb(255, 255, 255));
+    /* background-image: linear-gradient(to right, rgba(161, 157, 157, 0.938), rgba(248, 247, 247, 0.562), rgb(255, 255, 255), rgba(255, 255, 255, 0.815), rgb(255, 255, 255));
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
   background-size: 190%;
   background-position: -150%;
-  animation: animatedText 2000ms infinite alternate-reverse;
+  animation: animatedText 2000ms infinite alternate-reverse; */
 }
 .intro{
     /* border-width: 2px;
@@ -72,9 +72,9 @@ p {
     height: auto;
     float: right;
     margin-right: 0%;
-    margin-top: 2%;
+    margin-top: 1%;
     overflow: hidden;
-    padding-bottom: 3vw;
+    padding-bottom: 0vw;
 }
 
 .Two_0 {
@@ -140,6 +140,7 @@ p {
   }
  
   #tag{
+    /* outline: 3px solid rgb(19, 255, 51);   */
     /* display: inline-block; */
     letter-spacing: 0.063vw;
   }
@@ -151,6 +152,8 @@ p {
     font-family: 'Changa', sans-serif;
     font-size: 1.4vw;
     font-weight: 400;
+    width: 100%;
+    height: auto;
 
   
   }
@@ -167,7 +170,7 @@ p {
   }
   .form{
     float: left;
-    width: 100%;
+    width: 95%;
     position: relative;
     height: 5vw;
     overflow: hidden;
@@ -195,7 +198,7 @@ p {
     color: white;
     opacity: 0.75;
     font-family: 'Changa', sans-serif;
-    border-bottom: 0.125rem solid #222222;
+    border-bottom: transparent;
   }
   .form label::after {
     content: '';
@@ -230,13 +233,17 @@ p {
 
 
  }
+ .btnnn{
+  padding-bottom: 3%;
 
+  font-family: 'Changa', sans-serif;
+}
 
  
  .gradButton {
 
     margin-left: 40%;
-    width: 7rem;
+    width: 7.5rem;
     height: 2.5rem;
     outline: none;
     margin-top: 1.25rem;
@@ -300,7 +307,7 @@ p {
   .touch {
     display: inline-block;
     position:relative;
-    bottom:5;
+    bottom:0;
     font-family: 'Changa', sans-serif;
 
     /* left: 0; */
@@ -347,6 +354,7 @@ p {
   .fa-clipboard:hover {
     cursor: pointer;
   }
+  
 
 
   @media (max-width: 1055px) {
@@ -459,14 +467,21 @@ font-size: 2vw;
       margin-left: 3%;
 
     }
+    .gradButton {
+      width: 17vw;
+      height: 5.5vw;
+    }
+    .gradButton span {
+      font-size: 2.1vw;
+    }
     .touch {
 
       display: inline-block;
       position:relative;
-      bottom:0;
+      bottom:5;
       /* left: 0; */
       width:100%;
-      height:auto;   /* Height of the footer */
+      height:35px;   /* Height of the footer */
       text-align: center;
       margin-top: 8px;
 
@@ -624,18 +639,24 @@ font-size: 2vw;
       
     }
 
-    @media (max-width: 480px) {
+      @media (max-width: 480px)  {
       .container-fluid{
         margin-top: 5%;
         margin-left: 0;
+        padding-right: 4;
+        padding-left: 4;
         margin-right: 0;
         margin-bottom: 0%;
-        font-size: 4.35vw;
+        font-size: 6vw;
         width: 98%;
         height: auto;
         line-height: 7vw;
-        padding: 0;
+
         font-weight: 800;
+        font-family: 'Changa', sans-serif;
+        word-spacing: 1px;
+        letter-spacing: -1px;
+
 
     }
     .image{
@@ -689,7 +710,7 @@ font-size: 2vw;
 
 
 #numb{
-
+  font-size: 0.9rem;
   font-weight: 500;
   letter-spacing:0.05vw ;
 
@@ -705,7 +726,7 @@ font-size: 2vw;
   }
 
   #tag{
-
+    font-size: 0.9rem;
     font-weight: 500;
     letter-spacing:0.05vw ;
 
@@ -750,17 +771,17 @@ font-size: 2vw;
       .form label::after {
         content: '';
         position: absolute;
-        width: 95%;
-        left: 0px;
+        width: 98%;
+        left: 3px;
         bottom: -0.125rem;
         height: 100%;
         border-bottom: 0.156rem solid #9b9b9b;
-        transform: translateX(-76.5%);
+        transform: translateX(-72.5%);
         transition: transform 1.5s ease-in-out;
     
       }
       .content-name{
-        font-size: 0.9rem;
+        font-size: 4vw;
       }
       .form input:focus + .labe-name .content-name,
       .form input:valid + .labe-name .content-name {
@@ -778,12 +799,12 @@ font-size: 2vw;
   
       .btnnn{
         padding-bottom: 3%;
-        margin-left: -5%;
+        margin-left: -8%;
         margin-bottom: -2%;
-  
+        font-family: 'Changa', sans-serif;
       }
       .gradButton {
-        width: 25vw;
+        width: 29vw;
         height: 8vw;
       }
       .gradButton span {
@@ -795,10 +816,10 @@ font-size: 2vw;
         display: inline-block;
         position:relative;
         bottom:0;
-        margin-top: 3%;
+        margin-top: 4%;
         /* left: 0; */
         width:100%;
-        height:auto;   /* Height of the footer */
+        height:40px;   /* Height of the footer */
         text-align: center;
     
     
@@ -814,3 +835,4 @@ font-size: 2vw;
   
         
     }
+
