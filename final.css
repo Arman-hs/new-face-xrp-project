@@ -2,11 +2,15 @@ body{
     background-color: #222222;
     width: 100%;
     height: auto;
+    -webkit-overflow-scrolling: touch;
+
 
 }
 .all{
   width: 99%;
   height: auto;
+  -webkit-overflow-scrolling: touch;
+
 }
 
 .container-fluid {
@@ -640,6 +644,7 @@ font-size: 2vw;
     }
 
       @media (max-width: 480px)  {
+      
       .container-fluid{
         margin-top: 5%;
         margin-left: 0;
@@ -647,7 +652,7 @@ font-size: 2vw;
         padding-left: 4;
         margin-right: 0;
         margin-bottom: 0%;
-        font-size: 6vw;
+        font-size: 5.5vw;
         width: 98%;
         height: auto;
         line-height: 7vw;
@@ -655,7 +660,8 @@ font-size: 2vw;
         font-weight: 800;
         font-family: 'Changa', sans-serif;
         word-spacing: 1px;
-        letter-spacing: -1px;
+        letter-spacing: 0;
+        -webkit-overflow-scrolling: touch;
 
 
     }
@@ -663,13 +669,13 @@ font-size: 2vw;
       margin-left: 7%;
 
       width: 85%;
-      margin-top: -5%;
+      margin-top: -2%;
       /* margin-left: 10%; */
       /* align-items: center; */
       /* justify-items: center; */
       /* display: flex; */
       /* z-index: -1; */
-      margin-bottom: -5%;
+      margin-bottom: -10%;
       
   }
 
@@ -705,6 +711,8 @@ font-size: 2vw;
   margin-left: 2%;
   margin-top: -3%;
   font-weight: 500;
+  -webkit-overflow-scrolling: touch;
+
   
 }
 
@@ -713,6 +721,7 @@ font-size: 2vw;
   font-size: 0.9rem;
   font-weight: 500;
   letter-spacing:0.05vw ;
+  -webkit-overflow-scrolling: touch;
 
   
 }
@@ -722,6 +731,8 @@ font-size: 2vw;
       margin-left: 2%;
       font-weight: 500;
       margin-bottom: 2vw;
+      -webkit-overflow-scrolling: touch;
+
       
   }
 
@@ -729,6 +740,7 @@ font-size: 2vw;
     font-size: 0.9rem;
     font-weight: 500;
     letter-spacing:0.05vw ;
+    -webkit-overflow-scrolling: touch;
 
       
   }
@@ -766,7 +778,7 @@ font-size: 2vw;
         color: white;
         opacity: 0.75;
         font-family: 'Changa', sans-serif;
-        border-bottom: 0.125rem solid #222222;
+        border-bottom: transparent;
       }
       .form label::after {
         content: '';
@@ -832,7 +844,6 @@ font-size: 2vw;
         color: white;
         font-size: 0.8rem;
       }
-  
         
     }
 
